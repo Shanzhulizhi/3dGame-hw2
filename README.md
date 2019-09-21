@@ -1,5 +1,5 @@
 ##### 3dGame-hw2
-牧师与恶魔视频见[爱奇艺]()
+牧师与恶魔视频见[爱奇艺](http://www.iqiyi.com/w_19s9nl4fi9.html)
 ---
 ### 简答题
 ##### 1.游戏对象运动的本质是什么？
@@ -81,6 +81,7 @@ public class methodC : MonoBehaviour {
 (1) 首先设置10个球体，分别是太阳、八大行星和月球。八大行星按照离太阳的距离从近到远依次为水星、金星、地球、火星、木星、土星、天王星、海王星。
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190920192459245.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
+
 (2)设置天体的自转和公转，包括地月系。由于题目需要行星要在不同的法平面旋转，我们随机设定行星旋转的轴位置，并且设置旋转速度的不同。以天王星的自转和公转为例。
 自转：```public void Rotate(Vector3 eulers,Space relativeTo)```
 公转：```public void RotateAround(Vector3 point,Vector3 axis,float angle)```
